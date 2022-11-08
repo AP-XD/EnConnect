@@ -185,7 +185,7 @@ export default function Conversation({ receiver, user }) {
       
       {receiver ? ( //If we have a receiver
         <div className="chat">
-          <p title={receiver.email} className="receiver">Conversation with {receiver.email}</p>
+          <p title={receiver.email} className="receiver">You are chatting with {receiver.email}</p>
 
           {/* Conversation messages */}
           <div className="conversation-messages" ref={chatBodyRef}>
@@ -201,7 +201,7 @@ export default function Conversation({ receiver, user }) {
                 <div className="input-message">
                     <br/><input placeholder="Enter message" ref={currentMessage}  onKeyPress={handleEnterKeyPressDown}/>
                 </div>
-            <button onClick={sendMessage} currentMessage="Hello">Go</button>
+            <button onClick={sendMessage} currentMessage="Hello">Send</button>
           </div>
         </div>
       ) : ( //If no receiver

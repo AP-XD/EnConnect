@@ -4,8 +4,15 @@ p{
 body{
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
-.in-call iframe{
-  
+*::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: rgb(62, 27, 113);
+  outline: 1px solid rgb(91, 15, 203);
 }

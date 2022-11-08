@@ -10,7 +10,7 @@ export default function ChatHeads({ items, setreceiver }) {
   return (
     //Rendering all the available users from firebase with a profile picture and their username Clicking the username sets them as the receiver
     <div>
-      <p>Users</p>
+      <p className="users">Users</p>
       {items.map((obj, i) => (
         <div
           style={{ backgroundColor: isActive==i ? "#7e49f9" : "" }}

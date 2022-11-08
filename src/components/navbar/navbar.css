@@ -7,7 +7,7 @@
     align-items: center;
     justify-content:space-between;
     border:none;
-    background-color: rgb(16, 123, 230);
+    background-color: rgb(102, 16, 230);
     color: white;
 }
 
@@ -25,16 +25,24 @@ p
     float: left;
 }
 
-
-button{
-    background-color: rgb(16, 123, 230);
+.btn-2 {
+    background: rgb(255, 255, 255);
+    color:rgb(102, 16, 230);
     font-weight: bold;
-    border-color: black;
-    color: white;
+    border: none;
+    padding:1rem;
+    border-radius: 20px;
+    margin-left: 50px;
 }
-
-button:hover{
-    background-color: silver;
+.btn-2:before {
+    height: 0%;
+    width: 2px;
+}
+.btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
 
 @media only screen and (max-width:480px){
