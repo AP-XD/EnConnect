@@ -3,4 +3,6 @@ body {
 }
 .navbar {
   background-color: rgb(102, 16, 230);
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
 }

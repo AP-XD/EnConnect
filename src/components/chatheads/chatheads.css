@@ -13,6 +13,7 @@
 .user-profile-pic-text {
   font-size: 20px;
   text-transform: capitalize;
+  
 }
 
 .chat-head-item:hover {
@@ -20,6 +21,7 @@
 }
 
 .username {
+  
   font-size: 18px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -43,7 +45,7 @@
 .user-profile-pic {
   width: 25px;
   height: 25px;
-  background-color: #ccc;
+  background-color: rgb(94, 9, 179);
   display: flex;
   border-radius: 50%;
   justify-content: center;
